@@ -35,7 +35,7 @@ On macOS, `brew install --cask lichdotdev/tap/lich`. On Windows, grab the instal
 | Repo | What it is |
 | --- | --- |
 | [`lich`](https://github.com/omartelo/lich) | The app: Go backend, React frontend, embedded Chromium shell |
-| [`lich-plugin`](https://github.com/omartelo/lich-plugin) | Session hooks that let lich read what each agent is doing |
+| [`lich-plugin`](https://github.com/lichdotdev/lich-plugin) | Session hooks that let lich read what each agent is doing |
 | [`homebrew-tap`](https://github.com/lichdotdev/homebrew-tap) | Homebrew cask for macOS |
 
 ### Themes
