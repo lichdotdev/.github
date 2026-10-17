@@ -1,19 +1,19 @@
-<a href="https://omartelo.github.io/lich/">
+<a href="https://lichdotdev.github.io/lich/">
   <img width="1280" alt="lich, a terminal-first ADE for the coding agents you already use" src="banner.png" />
 </a>
 
 <p align="center">
-  <a href="https://omartelo.github.io/lich/">Website</a>
+  <a href="https://lichdotdev.github.io/lich/">Website</a>
   ·
-  <a href="https://github.com/omartelo/lich">Code</a>
+  <a href="https://github.com/lichdotdev/lich">Code</a>
   ·
-  <a href="https://github.com/omartelo/lich/releases">Releases</a>
+  <a href="https://github.com/lichdotdev/lich/releases">Releases</a>
   ·
-  <a href="https://github.com/omartelo/lich/blob/main/docs/cli.md">CLI</a>
+  <a href="https://github.com/lichdotdev/lich/blob/main/docs/cli.md">CLI</a>
   ·
-  <a href="https://github.com/omartelo/lich/blob/main/docs/themes.md">Themes</a>
+  <a href="https://github.com/lichdotdev/lich/blob/main/docs/themes.md">Themes</a>
   ·
-  <a href="https://github.com/omartelo/lich/blob/main/CHANGELOG.md">Changelog</a>
+  <a href="https://github.com/lichdotdev/lich/blob/main/CHANGELOG.md">Changelog</a>
 </p>
 
 ## About lich
@@ -25,22 +25,22 @@ One static Go binary, no Electron: the UI opens in lich's own embedded Chromium 
 ## Getting started
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/omartelo/lich/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/lichdotdev/lich/main/install.sh | sh
 ```
 
-On macOS, `brew install --cask lichdotdev/tap/lich`. On Windows, grab the installer from [Releases](https://github.com/omartelo/lich/releases). Every other route is in [INSTALL.md](https://github.com/omartelo/lich/blob/main/INSTALL.md).
+On macOS, `brew install --cask lichdotdev/tap/lich`. On Windows, grab the installer from [Releases](https://github.com/lichdotdev/lich/releases). Every other route is in [INSTALL.md](https://github.com/lichdotdev/lich/blob/main/INSTALL.md).
 
 ## The ecosystem
 
 | Repo | What it is |
 | --- | --- |
-| [`lich`](https://github.com/omartelo/lich) | The app: Go backend, React frontend, embedded Chromium shell |
+| [`lich`](https://github.com/lichdotdev/lich) | The app: Go backend, React frontend, embedded Chromium shell |
 | [`lich-plugin`](https://github.com/lichdotdev/lich-plugin) | Session hooks that let lich read what each agent is doing |
 | [`homebrew-tap`](https://github.com/lichdotdev/homebrew-tap) | Homebrew cask for macOS |
 
 ### Themes
 
-Install any of these from Settings › Appearance › **Import** by pasting the repo URL, or [write your own](https://github.com/omartelo/lich/blob/main/docs/themes.md).
+Install any of these from Settings › Appearance › **Import** by pasting the repo URL, or [write your own](https://github.com/lichdotdev/lich/blob/main/docs/themes.md).
 
 [Catppuccin](https://github.com/lichdotdev/catppuccin-lich) ·
 [Rosé Pine](https://github.com/lichdotdev/rose-pine-lich) ·
@@ -53,11 +53,11 @@ Install any of these from Settings › Appearance › **Import** by pasting the 
 
 ## Issues and feature requests
 
-Please [search the existing issues](https://github.com/omartelo/lich/issues) first, then [open a new one](https://github.com/omartelo/lich/issues/new/choose) if nothing covers it.
+Please [search the existing issues](https://github.com/lichdotdev/lich/issues) first, then [open a new one](https://github.com/lichdotdev/lich/issues/new/choose) if nothing covers it.
 
 ## Contributing
 
-Contributions are welcome. [CONTRIBUTING.md](https://github.com/omartelo/lich/blob/main/CONTRIBUTING.md) covers building from source and the local gate every PR runs.
+Contributions are welcome. [CONTRIBUTING.md](https://github.com/lichdotdev/lich/blob/main/CONTRIBUTING.md) covers building from source and the local gate every PR runs.
 
 ## Sponsors
 
