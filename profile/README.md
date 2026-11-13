@@ -1,5 +1,5 @@
 <a href="https://lichdotdev.github.io/lich/">
-  <img width="1280" alt="lich: run your coding agents side by side, each on its own branch" src="banner.png" />
+  <img width="1280" alt="lich, the multi-agent ADE: four Claude Code sessions side by side in one window, each in its own git worktree" src="banner.png" />
 </a>
 
 <p align="center">
