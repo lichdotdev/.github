@@ -1,5 +1,5 @@
 <a href="https://lichdotdev.github.io/lich/">
-  <img width="1280" alt="lich, a terminal-first ADE for the coding agents you already use" src="banner.png" />
+  <img width="1280" alt="lich: run your coding agents side by side, each on its own branch" src="banner.png" />
 </a>
 
 <p align="center">
@@ -13,14 +13,16 @@
   ·
   <a href="https://github.com/lichdotdev/lich/blob/main/docs/themes.md">Themes</a>
   ·
+  <a href="https://github.com/lichdotdev/lich/blob/main/docs/extensions.md">Extensions</a>
+  ·
   <a href="https://github.com/lichdotdev/lich/blob/main/CHANGELOG.md">Changelog</a>
 </p>
 
 ## About lich
 
-**lich is a terminal-first ADE for the coding agents you already use.** Open your projects, run Claude Code, Codex, opencode and five more in real terminals side by side, and keep git (worktrees, diffs and pull requests) in view without leaving the window.
+**lich is the multi-agent ADE: all your agents working at once, each on its own branch.** Claude Code, Codex, opencode or the agent you already use, each in its own git worktree, all in one window, with diffs and pull requests in view.
 
-One static Go binary, no Electron: the UI opens in lich's own embedded Chromium on Linux, macOS and Windows.
+A native window on Linux, macOS and Windows. No Electron, no browser.
 
 ## Getting started
 
@@ -34,9 +36,15 @@ On macOS, `brew install --cask lichdotdev/tap/lich`. On Windows, grab the instal
 
 | Repo | What it is |
 | --- | --- |
-| [`lich`](https://github.com/lichdotdev/lich) | The app: Go backend, React frontend, embedded Chromium shell |
+| [`lich`](https://github.com/lichdotdev/lich) | The app: a Go backend and a native window |
 | [`lich-plugin`](https://github.com/lichdotdev/lich-plugin) | Session hooks that let lich read what each agent is doing |
+| [`lich-intellij`](https://github.com/lichdotdev/lich-intellij) | IntelliJ IDEA plugin: send a selection, a file, a failed test or a diff to a lich session |
+| [`noctalia-plugins`](https://github.com/lichdotdev/noctalia-plugins) | Your lich sessions in the Noctalia bar, a panel and the lock screen |
 | [`homebrew-tap`](https://github.com/lichdotdev/homebrew-tap) | Homebrew cask for macOS |
+
+### Extensions
+
+An extension adds a screen of its own to lich. [`lich-notes`](https://github.com/lichdotdev/lich-notes) is a notes screen and the reference example; [docs/extensions.md](https://github.com/lichdotdev/lich/blob/main/docs/extensions.md) covers writing one.
 
 ### Themes
 
@@ -44,12 +52,22 @@ Install any of these from Settings › Appearance › **Import** by pasting the 
 
 [Catppuccin](https://github.com/lichdotdev/catppuccin-lich) ·
 [Rosé Pine](https://github.com/lichdotdev/rose-pine-lich) ·
+[Everforest](https://github.com/lichdotdev/everforest-lich) ·
 [Eldritch](https://github.com/lichdotdev/eldritch-lich) ·
 [Moonfly](https://github.com/lichdotdev/moonfly-lich) ·
 [Bluloco](https://github.com/lichdotdev/bluloco-lich) ·
 [Oceanic Next](https://github.com/lichdotdev/oceanic-next-lich) ·
 [Cloud9 JetStream](https://github.com/lichdotdev/cloud9-jetstream-lich) ·
 [Lotus](https://github.com/lichdotdev/lotus-lich)
+
+### Gio libraries
+
+Built for lich's window, usable in any [Gio](https://gioui.org) application.
+
+| Repo | What it is |
+| --- | --- |
+| [`godemirror`](https://github.com/lichdotdev/godemirror) | A read-only code view and diff view |
+| [`gio-driver`](https://github.com/lichdotdev/gio-driver) | Guided product tours, in the spirit of driver.js |
 
 ## Issues and feature requests
 
